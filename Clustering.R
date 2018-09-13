@@ -1,16 +1,12 @@
-## Author: Utkarsh Kulshrestha
-## Company Name: Wipro Technologies
-## Email : utkarsh.kulshrestha@wipro.com
-
 ## Let us find the clusters in given Retail Customer Spends data
 ## Hierarchical Clustering
 
 ## Let us first set the working directory path and import the data
 
-#setwd ("D:/utkarsh/datafile")
+#setwd ("D:/shakti/datafile")
 #getwd()
 
-RCDF <- read.csv("/home/utkarsh/LearnBay/Machine Learning Python/Cust_Spend_Data.csv", header=TRUE)
+RCDF <- read.csv("/home/shakti/Machine Learning Python/Cust_Spend_Data.csv", header=TRUE)
 View(RCDF)
 
 ?dist  ## to get help on distance function
